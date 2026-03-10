@@ -6,3 +6,7 @@ class Calculator:
             """Adds two numbers and updates the internal value."""
             self._current_val = x + y
             return self._current_val
+    def subtract(self, x, y):
+            """Adds two numbers and updates the internal value."""
+            self._current_val = x - y
+            return self._current_val
